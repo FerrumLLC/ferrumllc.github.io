@@ -1,0 +1,5 @@
+[book]
+authors = ["GameGuy"]
+language = "en"
+src = "src"
+title = "Ferrum Developer Documentation"

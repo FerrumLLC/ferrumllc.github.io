@@ -3,3 +3,6 @@ authors = ["GameGuy"]
 language = "en"
 src = "src"
 title = "Ferrum Developer Documentation"
+
+[output.html]
+additional-css = ["custom.css"]

@@ -12,7 +12,7 @@
     - [Buttons](km/mouse/buttons.md)
       - [Set Button State](km/mouse/buttons/set_btn_state.md)
       - [Get Button State](km/mouse/buttons/get_btn_state.md)
-      - [Button State Broadcast](km/mouse/buttons/btn_state_broadcast.md)
+      - [Button State Event](km/mouse/buttons/btn_state_event.md)
       - [Click](km/mouse/buttons/click.md)
       - [Lock](km/mouse/buttons/lock.md)
     - [Axes](km/mouse/axes.md)
@@ -25,3 +25,5 @@
 - [Legacy Mouse API](legacy_api.md)
 
 - [Hardware Override](hardware_override.md)
+
+- [Credits and Contact](credits_and_contact.md)

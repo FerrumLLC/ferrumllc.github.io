@@ -5,9 +5,6 @@ the name of any button, as defined in the [Buttons](../buttons.md) section, this
 
 ## Examples
 
-These examples are raw serial input and output. You are expected to know how to connect to, write to, and read from a
-serial port. See [Using a Serial Port](../../../serial_port.md) for more info.
-
 ### Reading the Left Button's State
 
 Input:

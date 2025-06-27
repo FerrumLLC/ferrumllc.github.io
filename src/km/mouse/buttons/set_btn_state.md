@@ -5,13 +5,14 @@ with the name of any button, as defined in the [Buttons](../buttons.md) section,
 buttons. By replacing `state` with either `1` for pressed, or `0` for releasing a press, the command can be used to
 force a button down, or release the force press.
 
-Presses are indefinite, meaning until the user engages the
-[Hardware Override](/src/hardware_override.md), the button will remain pressed.
+Currently this function does not force release the mouse button when a release command is sent. Instead it releases the
+press request, returning the device to its original state. This is as defined in the
+[Hardware Override](../../../hardware_override.md) state machine, and is likely to change in the future.
+
+Presses are indefinite, meaning until the user engages the [Hardware Override](../../../hardware_override.md), the button
+will remain pressed.
 
 ## Examples
-
-These examples are raw serial input and output. You are expected to know how to connect to, write to, and read from a
-serial port. See [Using a Serial Port](../../../serial_port.md) for more info.
 
 ### Pressing the Left Button
 

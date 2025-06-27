@@ -6,7 +6,6 @@ will press, and then after the duration of the click, release the press, returni
 
 There is a delay for how long the button is held for. This value is a uniformly random duration between 75ms and 125ms.
 
-Buttons:
 | Button Number | Button Description      |
 | ------------- | ----------------------- |
 | 0             | the left button         |

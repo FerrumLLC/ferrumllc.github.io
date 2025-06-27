@@ -9,9 +9,10 @@ Calling the command with no arguments (by using `()`) will return the state of t
 Calling the command with one argument will set the lock's state. If the argument is `1` it will enable it. If it is `0`,
 it will disable it.
 
-When the lock is enabled, any physical movement on the axes will not be sent to the Output PC.
+When the lock is enabled, any physical movement on the axes will not be sent to the Output PC. The Input PC can still
+send movement to the Output PC by using the [Move](move.md) command.
 
-This is also known as "input masking", as the movement is "masked" from the Ouput PC.
+This is also known as "input masking", as the physical input is "masked" from the Ouput PC.
 
 | Axis Lock Name | Axis Direction |
 | -------------- | -------------- |

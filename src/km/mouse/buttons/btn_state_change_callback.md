@@ -2,7 +2,7 @@
 
 ## Prefix
 
-The syntax for this function was designed by ihack, the developer of MAKCU. It is implemented here for compatibility's
+The syntax for this function was designed by "I hack", the developer of MAKCU. It is implemented here for compatibility's
 sake. However, it is a rather complex function, and may be difficult to grasp at first. If you want something simple
 instead, its functionality can be substituted by using the [Get Button State](get_btn_state.md) command.
 

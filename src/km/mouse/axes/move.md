@@ -7,7 +7,7 @@ and a negative value means left. Similarly, the integer `y_amount` controls up o
 positive is down.
 
 As per [Using a Serial Port](../../../serial_port.md), the whitespace after the command and before `y_amount` can be any
-width. Both arguments must always be included. If you dont want to move in an axis, simply send `0` in its place, as
+width. Both arguments must always be included. If you don't want to move in an axis, simply send `0` in its place, as
 shown in the examples below.
 
 ## Examples

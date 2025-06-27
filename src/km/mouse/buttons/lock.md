@@ -14,7 +14,7 @@ button states via either the [Get Button State](get_btn_state.md) or [Button Sta
 The Input PC can also still press/release the button via either the [Click](click.md) or
 [Press/Release](set_btn_state.md) commands.
 
-This is also known as "input masking", as the physical input is "masked" from the Ouput PC.
+This is also known as "input masking", as the physical input is "masked" from the Output PC.
 
 | Button Lock Name | Button Description      |
 | ---------------- | ----------------------- |
@@ -43,9 +43,9 @@ km.lock_ml(1)
 
 Input:
 ```python
-km.lock_ms2(1)   # The side button will no longer function on the Ouput PC.
+km.lock_ms2(1)   # The side button will no longer function on the Output PC.
 km.lock_ms2()
-km.lock_ms2(0)   # The side button will now work again on the Ouput PC.
+km.lock_ms2(0)   # The side button will now work again on the Output PC.
 km.lock_ms2()
 ```
 

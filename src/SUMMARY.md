@@ -14,7 +14,7 @@
       - [Click](km/mouse/buttons/click.md)
       - [Lock](km/mouse/buttons/lock.md)
       - [Get Button State](km/mouse/buttons/get_btn_state.md)
-      - [Button State Event](km/mouse/buttons/btn_state_event.md)
+      - [Button State Change Callback](km/mouse/buttons/btn_state_change_callback.md)
     - [Axes](km/mouse/axes.md)
       - [Move](km/mouse/axes/move.md)
       - [Scroll](km/mouse/axes/scroll.md)

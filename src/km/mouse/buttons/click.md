@@ -1,10 +1,14 @@
 # Click
 
-The `km.click([button])` command is used to make the mouse press and release a button over some time. By replacing
-`button` with the number representing a button as shown below, this command can be used for all buttons. Currently it
-will press, and then after the duration of the click, release the press, returning to the hardware state.
+The `km.click([button])` command is used to make the mouse press and release a button over some time.
+
+By replacing `button` with the number representing a button as shown below, this command can be used for all buttons.
+
+Currently this command presses, waits, and then release the press, returning to the physical input state.
 
 There is a delay for how long the button is held for. This value is a uniformly random duration between 75ms and 125ms.
+For fine control over the duration of the button press, I strongly recommend developers use the commands defined in
+[Set Button State](set_btn_state.md).
 
 | Button Number | Button Description      |
 | ------------- | ----------------------- |

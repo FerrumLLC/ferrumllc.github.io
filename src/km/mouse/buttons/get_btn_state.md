@@ -1,7 +1,9 @@
 # Get Button State
 
-The `km.[button_name]()` command is used to read the state of any of the mouse buttons. By replacing `button_name` with
-the name of any button, as defined in the [Buttons](../buttons.md) section, this command can be used for all buttons.
+The `km.[button_name]()` command is used to read the state of any of the mouse buttons.
+
+By replacing `button_name` with the name of any button, as defined in the [Buttons](../buttons.md) section, this command
+can be used for all buttons.
 
 ## Examples
 

@@ -1,9 +1,12 @@
 # Set Button State
 
-The `km.[button_name]([state])` command is used to set the state of any of the mouse buttons. By replacing `button_name`
-with the name of any button, as defined in the [Buttons](../buttons.md) section, this command can be used for all
-buttons. By replacing `state` with either `1` for pressed, or `0` for releasing a press, the command can be used to
-force a button down, or release the force press.
+The `km.[button_name]([state])` command is used to set the state of any of the mouse buttons.
+
+By replacing `button_name` with the name of any button, as defined in the [Buttons](../buttons.md) section, this command
+can be used for all buttons.
+
+By replacing `state` with either `1` for pressed, or `0` for releasing a press, the command can be used to force a
+button down, or release the force press.
 
 Currently this function does not force release the mouse button when a release command is sent. Instead it releases the
 press request, returning the device to its original state. This is as defined in the

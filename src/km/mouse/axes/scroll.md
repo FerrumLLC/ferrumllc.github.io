@@ -1,9 +1,10 @@
 # Scroll
 
-The `km.wheel([amount])` command is used to scroll the mouse wheel a number of times up or down. When the integer
-`amount` is positive, the scroll is up. When it is negative, the scroll is down. The number doesn't represent pixels,
-but rather the number of scrolls to perform. One click in a physical scroll wheel is equivalent to one scroll up or
-down.
+The `km.wheel([amount])` command is used to scroll the mouse wheel a number of times up or down.
+
+When the integer `amount` is positive, the scroll is up. When it is negative, the scroll is down. The number doesn't
+represent pixels, but rather the number of scrolls to perform. One click in a physical scroll wheel is equivalent to one
+scroll up or down.
 
 ## Security
 

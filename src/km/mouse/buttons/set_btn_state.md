@@ -8,12 +8,13 @@ can be used for all buttons.
 By replacing `state` with either `1` for pressed, or `0` for releasing a press, the command can be used to force a
 button down, or release the force press.
 
-Currently this function does not force release the mouse button when a release command is sent. Instead it releases the
-press request, returning the device to its original state. This is as defined in the
-[Hardware Override](../../../hardware_override.md) state machine, and is likely to change in the future.
+Releases last for a uniformly random time period between 125ms and 175ms. After this time period, the button returns to
+the physical state.
 
-Presses are indefinite, meaning until the user engages the [Hardware Override](../../../hardware_override.md), the button
-will remain pressed.
+Presses are indefinite, meaning until the user engages the [Hardware Override](../../../hardware_override.md), or a
+release or click command is sent, the button will remain pressed.
+
+Note: The click command will override any presses or releases in place.
 
 ## Examples
 

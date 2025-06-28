@@ -4,11 +4,15 @@ The `km.click([button])` command is used to make the mouse press and release a b
 
 By replacing `button` with the number representing a button as shown below, this command can be used for all buttons.
 
-Currently this command presses, waits, and then release the press, returning to the physical input state.
+Currently this command presses, delays, releases, delays, and then returns to the hardware state.
 
-There is a delay for how long the button is held for. This value is a uniformly random duration between 75ms and 125ms.
-For fine control over the duration of the button press, I strongly recommend developers use the commands defined in
-[Set Button State](set_btn_state.md).
+There is a delay for how long the press and release are held for. The press and release durations are uniformly random
+values between 75ms and 125ms, and 125ms and 175ms respectively. For fine control over the duration of the delays, I
+strongly recommend developers use the commands defined in [Set Button State](set_btn_state.md).
+
+Clicks can be overridden by the user via the [Hardware Override](../../../hardware_override.md).
+
+<center><b>Buttons</b></center>
 
 | Button Number | Button Description      |
 | ------------- | ----------------------- |

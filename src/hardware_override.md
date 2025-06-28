@@ -15,7 +15,8 @@ TODO: Update image to match behavior with timed forced releases.
 ![Hardware Override State Machine](imgs/hardware_override_state_machine.png)
 
 In this image, HW Press/Release means the physical button on the mouse was pressed/released, and SW Press/Release means
-the software sent a down/up request (ex: km.left(0) or km.left(1)).
+the software sent a down/up request (ex: `km.left(0)` or `km.left(1)`).
 
 This image may seem daunting at first, but it can make sense by breaking it down into small steps. Such as by starting
-at `All Released`, and ...
+at `All Released`, and seeing where it goes when you press a button, or send a command. It should hopefully quickly
+make sense how the override works, and how a user can press or release a button to override a software input.

@@ -5,5 +5,3 @@ In this book, examples are given in terms of serial console input and output. Ea
 in [Command Echoing](serial_port/command_echoing.md).
 
 TODO: This section should explain how to connect to a serial port, write to it, and read from it.
-
-Or maybe I leave it up to the user. It'd take one Google search or ChatGPT request.

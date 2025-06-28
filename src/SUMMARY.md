@@ -1,6 +1,8 @@
 # Summary
 
+[Introduction](introduction.md)
 [Key Terms](key_terms.md)
+
 - [Using a Serial Port](serial_port.md)
   - [Line Terminator](serial_port/line_terminator.md)
   - [Command Echoing](serial_port/command_echoing.md)

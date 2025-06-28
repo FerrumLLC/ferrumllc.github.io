@@ -12,6 +12,10 @@ strongly recommend developers use the commands defined in [Set Button State](set
 
 Clicks can be overridden by the user via the [Hardware Override](../../../hardware_override.md).
 
+If the button is physically pressed when the click starts, it will be force released after the press delay, and then
+the release will be removed after the release delay, putting it back in the hardware state (pressed if it's still
+physically pressed, or released if the user released the button at some point).
+
 <center><b>Buttons</b></center>
 
 | Button Number | Button Description      |

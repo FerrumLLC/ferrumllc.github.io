@@ -1,6 +1,9 @@
 # Buttons
 
-There are 5 buttons on any mouse being used on Microsoft Windows:
+There are 5 buttons on any mouse being used on Microsoft Windows.
+
+<center><b>Buttons</b></center>
+
 | Button Name | Button Description      |
 | ----------- | ----------------------- |
 | left        | the left button         |

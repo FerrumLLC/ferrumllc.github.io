@@ -2,6 +2,8 @@
 
 This file contains all aliases. Sending the alias will act identically to the original command.
 
+<center><b>Aliases</b></center>
+
 | Alias          | Original       |
 | -------------- | -------------- |
 | m              | km.move        |

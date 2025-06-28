@@ -14,6 +14,8 @@ send movement to the Output PC by using the [Move](move.md) command.
 
 This is also known as "input masking", as the physical input is "masked" from the Output PC.
 
+<center><b>Axis Locks</b></center>
+
 | Axis Lock Name | Axis Direction |
 | -------------- | -------------- |
 | mx             | left and right |

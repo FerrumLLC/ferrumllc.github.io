@@ -16,6 +16,8 @@ The Input PC can also still press/release the button via either the [Click](clic
 
 This is also known as "input masking", as the physical input is "masked" from the Output PC.
 
+<center><b>Button Locks</b></center>
+
 | Button Lock Name | Button Description      |
 | ---------------- | ----------------------- |
 | ml               | the left button         |

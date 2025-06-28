@@ -1,6 +1,9 @@
 # Axes
 
-There are 2 main axes used in the Keyboard Mouse API:
+There are 2 main axes used in the Keyboard Mouse API.
+
+<center><b>Axes</b></center>
+
 | Axis | Axis Directions |
 | ---- | --------------- |
 | x    | left and right  |

@@ -22,6 +22,13 @@
       - [Scroll](km/mouse/axes/scroll.md)
       - [Lock](km/mouse/axes/lock.md)
   - [Keyboard](km/keyboard.md)
+    - [Keys](km/keyboard/keys.md)
+      - [Press/Release](km/keyboard/keys/set_key_state.md)
+      - [Click](km/keyboard/keys/click.md)
+      - [Multiple Key Input](km/keyboard/keys/multi.md)
+      - [Lock](km/keyboard/keys/lock.md)
+      - [Get Key State](km/keyboard/keys/get_key_state.md)
+      - [Clear Locks](km/keyboard/keys/clear_locks.md)
   - [Aliases](km/aliases.md)
 
 - [Legacy Mouse API](legacy_api.md)

@@ -36,7 +36,7 @@ km.left(1)
 Input:
 ```python
 km.side2(1)    # 1 for pressing the button
-# A slight delay of >= 1ms is needed here to ensure the commands don't overlap.
+# A slight delay of is recommended here so the click appears realistic.
 km.side2(0)    # 0 for releasing the button
 ```
 

@@ -21,6 +21,7 @@
       - [Move](km/mouse/axes/move.md)
       - [Scroll](km/mouse/axes/scroll.md)
       - [Lock](km/mouse/axes/lock.md)
+      - [Catch](km/mouse/axes/catch_xy.md)
   - [Keyboard](km/keyboard.md)
     - [Keys](km/keyboard/keys.md)
       - [Press/Release](km/keyboard/keys/set_key_state.md)

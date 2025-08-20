@@ -12,7 +12,7 @@ end of a string. As such, your parsing may mistakenly cut off early, thinking th
 
 ## Documentation
 
-The `km.buttons` command is used to read from and write to the Button State Change Callback.
+The `km.buttons` command is used to enable and disable the Button State Change Callback.
 
 Sending the command with no arguments will return whether the Callback is enabled (`1`) or disabled (`0`).
 
@@ -84,7 +84,7 @@ There are no implicit [Line Terminators](../../../serial_port/line_terminator.md
 
 The text in the square brackets is explaining context, and not actually sent on the serial port.
 
-There is no Input here, as the User physically pressing a button is the cause for the Output.
+There is no Input here, as the User physically pressing/releasing a button is the cause for the Output.
 
 Output:
 ```python

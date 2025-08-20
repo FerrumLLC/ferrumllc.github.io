@@ -30,6 +30,7 @@
       - [Lock](km/keyboard/keys/lock.md)
       - [Get Key State](km/keyboard/keys/get_key_state.md)
       - [Clear Locks](km/keyboard/keys/clear_locks.md)
+      - [Key State Change Callback](km/keyboard/keys/key_state_change_callback.md)
   - [Aliases](km/aliases.md)
 
 - [Legacy Mouse API](legacy_api.md)

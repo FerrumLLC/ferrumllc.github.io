@@ -4,6 +4,7 @@ The `km.catch_xy([duration], [include_sw_input])` command is used to find the am
 `duration` of time.
 
 The parameter `duration` is a value in milliseconds up to 1000, declaring how far back in time to sum the x/y input.
+
 The parameter `include_sw_input` is an optional boolean (`true` or `false`, with any capitalization), declaring whether
 to include both software and hardware input (true), or purely hardware input (false, or no parameter).
 

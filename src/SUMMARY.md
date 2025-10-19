@@ -22,6 +22,7 @@
       - [Scroll](km/mouse/axes/scroll.md)
       - [Lock](km/mouse/axes/lock.md)
       - [Catch](km/mouse/axes/catch_xy.md)
+      - [Axis State Change Callback](km/mouse/axes/axis_state_change_callback.md)
   - [Keyboard](km/keyboard.md)
     - [Keys](km/keyboard/keys.md)
       - [Press/Release](km/keyboard/keys/set_key_state.md)

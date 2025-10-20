@@ -1,16 +1,16 @@
 # Aliases
 
-This file contains all aliases. Sending the alias will act identically to the original command.
+This file contains all aliases. Sending the alias typically has the same behavior as sending the original command.
 
 <center><b>Aliases</b></center>
 
-| Alias          | Original       |
-| -------------- | -------------- |
-| m              | km.move        |
+| Alias          | Original       | Details
+| -------------- | ---------------| --------------
+| m              | km.move        | Added for Blurred.
 
 ## Examples
 
-### Using the m alias
+### Using the `m` Alias
 
 Input:
 ```python

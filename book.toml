@@ -7,6 +7,6 @@ title = "Ferrum Developer Documentation"
 [output.linkcheck]
 follow-web-links = false
 traverse-parent-directories = false
-user-agent = "mdbook-linkcheck-0.4.0"
+user-agent = "mdbook-linkcheck2-0.11.0"
 cache-timeout = 43200
 warning-policy = "error"

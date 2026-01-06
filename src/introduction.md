@@ -5,5 +5,5 @@ and recommendations around using Ferrum as a developer. It can also apply as doc
 with compatible APIs.
 
 Ferrum consists of two APIs: the [Legacy API](legacy_api.md), and the [Software API](software_api.md). The Software API
-is powered by the Ferrum App/Software on the user's second computer. Currently, Linux users are limited to only using
+is powered by the Ferrum App/Software on the user's input pc. Currently, Linux users are limited to only using
 the Legacy API, as the Software API is only compatible with Microsoft Windows.

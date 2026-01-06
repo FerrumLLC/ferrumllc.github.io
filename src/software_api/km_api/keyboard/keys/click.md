@@ -12,7 +12,7 @@ There is a delay for how long the press and release are held for. The press and 
 values between 75ms and 125ms, and 125ms and 175ms respectively. For fine control over the duration of the delays, I
 strongly recommend developers use the commands defined in [Set Key State](set_key_state.md).
 
-Clicks can be overridden by the user via the [Hardware Override](../../../hardware_override.md).
+Clicks can be overridden by the user via the [Hardware Override](../../../../hardware_override.md).
 
 If the key is physically pressed when the click starts, it will be force released after the press delay, and then the
 release will be removed after the release delay, putting it back in the hardware state (pressed if it's still

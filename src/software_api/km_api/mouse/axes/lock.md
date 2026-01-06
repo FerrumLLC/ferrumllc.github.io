@@ -10,7 +10,7 @@ Calling the command with one argument will set the lock's state. If the argument
 it will disable it.
 
 When the lock is enabled, any physical movement on the axes will not be sent to the Output PC. The Input PC can still
-send movement to the Output PC by using the [Move](move.md) command.
+send movement to the Output PC by using the [Move](./move.md) command.
 
 This is also known as "input masking", as the physical input is "masked" from the Output PC.
 

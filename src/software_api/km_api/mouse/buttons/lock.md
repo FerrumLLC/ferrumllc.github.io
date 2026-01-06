@@ -10,8 +10,8 @@ Calling the command with one argument will set the lock's state. If the argument
 it will disable it.
 
 When the lock is enabled, any physical button presses will not be sent to the Output PC. The Input PC can still read the
-button states via either the [Get Button State](get_btn_state.md) or [Button State Event](btn_state_event.md) commands.
-The Input PC can also still press/release the button via either the [Click](click.md) or
+button states via either the [Get Button State](./get_btn_state.md) or [Button State Event](./btn_state_change_callback.md) commands.
+The Input PC can also still press/release the button via either the [Click](./click.md) or
 [Press/Release](set_btn_state.md) commands.
 
 This is also known as "input masking", as the physical input is "masked" from the Output PC.

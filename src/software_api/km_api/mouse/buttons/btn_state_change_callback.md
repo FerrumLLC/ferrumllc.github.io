@@ -80,7 +80,7 @@ km.buttons(1)
 This example has the raw output of the serial console. The backslash prior to characters is not literally sent. If you
 don't know what the backslash means in this context, use Google/ChatGPT to learn.
 
-There are no implicit [Line Terminators](../../../serial_port/line_terminator.md) here.
+There are no implicit [Line Terminators](../../../../serial_port/line_terminator.md) here.
 
 The text in the square brackets is explaining context, and not actually sent on the serial port.
 

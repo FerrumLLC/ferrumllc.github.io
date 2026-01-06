@@ -11,7 +11,7 @@ button down, or release the force press.
 Releases last for a uniformly random time period between 125ms and 175ms. After this time period, the button returns to
 the physical state.
 
-Presses are indefinite, meaning until the user engages the [Hardware Override](../../../hardware_override.md), or a
+Presses are indefinite, meaning until the user engages the [Hardware Override](../../../../hardware_override.md), or a
 release or click command is sent, the button will remain pressed.
 
 Note: The click command will override any presses or releases in place.

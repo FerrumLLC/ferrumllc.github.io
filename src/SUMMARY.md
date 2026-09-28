@@ -36,6 +36,11 @@
         - [Clear Locks](software_api/km_api/keyboard/keys/clear_locks.md)
         - [Key State Change Callback](software_api/km_api/keyboard/keys/key_state_change_callback.md)
     - [Aliases](software_api/km_api/aliases.md)
+  - [Mouse Proxy API](software_api/mouse_proxy_api.md)
+    - [Start](software_api/mouse_proxy_api/start.md)
+    - [Fetch](software_api/mouse_proxy_api/fetch.md)
+    - [Modify](software_api/mouse_proxy_api/modify.md)
+    - [Stop](software_api/mouse_proxy_api/stop.md)
   - [KMBox Net Style API](software_api/kmbox_net_style_api.md)
   - [DHZBox Style API](software_api/dhzbox_style_api.md)
 

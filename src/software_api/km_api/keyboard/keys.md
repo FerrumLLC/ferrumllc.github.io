@@ -4,7 +4,11 @@ There are 255 keys on any keyboard being used on Microsoft Windows.
 
 These keys can all be used by their numeric form, while some can also be used by a string form. The table below defines these values, as well as the name of the physical key each one represents.
 
-Key strings are case-insensitive. Keys without a key string can only be used by their key number.
+Key strings are case-insensitive, and may optionally be wrapped in quotes (ex: `km.down(space)` or
+`km.down('space')`). Keys without a key string can only be used by their key number.
+
+Some punctuation keys, such as `=`, `/`, and `;`, have no key string, because those characters cannot be sent as
+arguments (see [Command Syntax](../../../serial_port/command_syntax.md)). Use their key number instead.
 
 <center><b>Keys</b></center>
 
@@ -52,17 +56,17 @@ Key strings are case-insensitive. Keys without a key string can only be used by 
 | 43         | `tab`      | Tab                       |
 | 44         | `space`    | Spacebar                  |
 | 45         | `-`        | - and _                   |
-| 46         | `=`        | = and +                   |
-| 47         | `[`        | [ and {                   |
-| 48         | `]`        | ] and }                   |
-| 49         | `\`        | \ and \|                  |
+| 46         |            | = and +                   |
+| 47         |            | [ and {                   |
+| 48         |            | ] and }                   |
+| 49         |            | \ and \|                  |
 | 50         |            | Non-US # and ~            |
-| 51         | `;`        | ; and :                   |
-| 52         | `'`        | ' and "                   |
-| 53         | `` ` ``    | Grave Accent and Tilde    |
-| 54         | `,`        | , and <                   |
+| 51         |            | ; and :                   |
+| 52         |            | ' and "                   |
+| 53         |            | Grave Accent and Tilde    |
+| 54         |            | , and <                   |
 | 55         | `.`        | . and >                   |
-| 56         | `/`        | / and ?                   |
+| 56         |            | / and ?                   |
 | 57         | `caps`     | Caps Lock                 |
 | 58         | `f1`       | F1                        |
 | 59         | `f2`       | F2                        |

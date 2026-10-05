@@ -55,3 +55,48 @@ Output:
 km.left(1)\r\n
 >>>           # Note this line is `>>> ` with a single space.
 ```
+
+## Disabling Echoing
+
+The `km.echo` command is used to enable and disable command echoing and the input prompt.
+
+Sending the command with no arguments will return whether echoing is enabled (`1`) or disabled (`0`).
+
+Sending the command with one argument will either enable (`1`) echoing, or disable (`0`) it.
+
+When echoing is disabled, neither the command nor the input prompt is sent back. Only the result of the command
+(followed by `\r\n`) is sent, and commands with no result send nothing at all. This makes responses easier to parse.
+
+Echoing is enabled by default, and is re-enabled whenever the serial port is closed.
+
+Note: callbacks such as the
+[Key State Change Callback](../software_api/km_api/keyboard/keys/key_state_change_callback.md) always end with the
+input prompt, even when echoing is disabled.
+
+### Disabling Echoing, then Reading a Button
+
+Input:
+```python
+km.echo(0)
+km.left()
+```
+
+Output:
+```python
+                   # km.echo(0) takes effect immediately, so nothing is sent back for it.
+1                  # Only the result of km.left() is sent.
+```
+
+### Reading the Echo State
+
+Input:
+```python
+km.echo()
+```
+
+Output:
+```python
+km.echo()
+1                  # Echoing is enabled.
+>>>
+```

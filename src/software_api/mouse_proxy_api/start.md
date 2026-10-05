@@ -6,6 +6,12 @@ The integer `window_size` is the number of frames Ferrum will buffer, in units o
 125 microseconds, meaning there are 8 of them every millisecond (8KHz). So a `window_size` of `80` means Ferrum holds 80
 microframes, which is `80 * 125 / 1000 = 10ms` of input.
 
+`window_size` must be between `3` and `240` (0.375~30ms inclusive). If it is missing or outside this range, the command
+is ignored.
+
+Calling `start` while the proxy is already running restarts it with the new `window_size`, discarding any buffered
+input.
+
 The window is the time available to modify the input. Any input that is not fetched and modified within the window will
 be sent to the `Output PC` unmodified. A larger window gives your software more time to respond, at the cost of more
 delay between the user moving their mouse, and the `Output PC` seeing it.

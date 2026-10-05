@@ -15,16 +15,17 @@ There are four commands in the Mouse Proxy API:
 | Command                                                          | Description                                                      |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
 | [`mouse_proxy.start([window_size])`](./mouse_proxy_api/start.md) | Enables the proxy, buffering `window_size` microframes of input. |
-| [`mouse_proxy.fetch()`](./mouse_proxy_api/fetch.md)              | Returns the input buffered since the last `fetch`.               |
+| [`mouse_proxy.fetch()`](./mouse_proxy_api/fetch.md)              | Returns the buffered input that hasn't been modified yet.        |
 | [`mouse_proxy.modify([frames])`](./mouse_proxy_api/modify.md)    | Sends the given frames in place of the fetched input.            |
 | [`mouse_proxy.stop()`](./mouse_proxy_api/stop.md)                | Disables the proxy, re-enabling all other mouse APIs.            |
 
 The general flow is to `start` the proxy with a window size, then in a loop, `fetch` the latest input and `modify` it,
 and finally `stop` the proxy when you are done.
 
-The window size is set in USB microframes, where 8 microframes is 1ms. It is how long your software has to fetch and
-modify the input. Any input that is not modified within the window is sent to the `Output PC` unmodified. So a window
-size of `80` (10ms) means your software must call `fetch` and `modify` at least every 10ms to modify all of the input.
+The window size is set in USB microframes, where 8 microframes is 1ms, and must be between `3` and `240`. It is how
+long your software has to fetch and modify the input. Any input that is not modified within the window is sent to the
+`Output PC` unmodified. So a window size of `80` (10ms) means your software must call `fetch` and `modify` at least
+every 10ms to modify all of the input.
 
 ## Examples
 

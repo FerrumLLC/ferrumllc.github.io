@@ -7,6 +7,7 @@ This file contains all aliases. Sending the alias typically has the same behavio
 | Alias          | Original       | Details
 | -------------- | ---------------| --------------
 | m              | km.move        | Added for Blurred.
+| km.axis        | km.axes        |
 
 ## Examples
 

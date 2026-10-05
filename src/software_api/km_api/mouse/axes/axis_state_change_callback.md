@@ -71,7 +71,7 @@ Axes(7, 0, 0)      # 7 units right, 0 units up, 0 scroll
 Axes(-8, 0, 0)     # 8 units left, 0 units up, 0 scroll
 >>> 
 [User Moves Right & Down]
-Axes(4, 5, 0)      # 4 units left, 5 units down, 0 scroll
+Axes(4, 5, 0)      # 4 units right, 5 units down, 0 scroll
 >>> 
 [User Scrolls Up]
 Axes(0, 0, 1)      # scrolls up

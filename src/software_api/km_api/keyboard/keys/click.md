@@ -3,8 +3,8 @@
 The `km.press([key])` command is used to make the keyboard press and release a key over some time. Rather unintuitively,
 for compatibility's sake, the command is called `km.press`, despite being responsible for a full click of a key.
 
-By replacing `key` with the number of any key, as defined in the [Keys](../keys.md) section, this command can be used
-for all keys.
+By replacing `key` with the number or key string of any key, as defined in the [Keys](../keys.md) section, this
+command can be used for all keys.
 
 Currently this command presses, delays, releases, delays, and then returns to the hardware state.
 

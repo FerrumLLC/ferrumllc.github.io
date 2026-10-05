@@ -2,8 +2,8 @@
 
 The `km.down([key])` and `km.up([key])` commands are used to set the state of any of the keyboard keys.
 
-By replacing `key` with the number of any key, as defined in the [Keys](../keys.md) section, this command can be used
-for all keys.
+By replacing `key` with the number or key string of any key, as defined in the [Keys](../keys.md) section, this
+command can be used for all keys.
 
 As their names suggest, `down` makes the key become pressed, while `up` makes it force release. For compatibility
 reasons, these names are slightly confusing, and so be careful to not mistake `down` for the `km.press` command, as
@@ -29,6 +29,19 @@ km.down(4)    # 4 for A
 Output:
 ```python
 km.down(4)
+>>>
+```
+
+### Pressing the Space Key by its Key String
+
+Input:
+```python
+km.down(space)    # Equivalent to km.down(44)
+```
+
+Output:
+```python
+km.down(space)
 >>>
 ```
 

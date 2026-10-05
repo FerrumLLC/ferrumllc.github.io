@@ -6,6 +6,8 @@ When the integer `amount` is positive, the scroll is up. When it is negative, th
 represent pixels, but rather the number of scrolls to perform. One click in a physical scroll wheel is equivalent to one
 scroll up or down.
 
+Values outside the range `-128` to `127` are clamped to that range.
+
 ## Security
 
 To prevent sending suspicious output, please do not use values other than -1 or +1 unless you know what you are doing.

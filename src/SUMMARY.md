@@ -6,6 +6,8 @@
 - [Using a Serial Port](serial_port.md)
   - [Line Terminator](serial_port/line_terminator.md)
   - [Command Echoing](serial_port/command_echoing.md)
+  - [Command Syntax](serial_port/command_syntax.md)
+  - [Misc](serial_port/misc.md)
 
 - [Hardware Override](hardware_override.md)
 
@@ -13,6 +15,8 @@
   - [Keyboard Mouse API](software_api/km_api.md)
     - [Misc](software_api/km_api/misc.md)
       - [Version](software_api/km_api/misc/version.md)
+      - [Device Presence](software_api/km_api/misc/has_device.md)
+      - [VID/PID](software_api/km_api/misc/vid_pid.md)
     - [Mouse](software_api/km_api/mouse.md)
       - [Buttons](software_api/km_api/mouse/buttons.md)
         - [Press/Release](software_api/km_api/mouse/buttons/set_btn_state.md)
@@ -43,6 +47,7 @@
     - [Stop](software_api/mouse_proxy_api/stop.md)
   - [KMBox Net Style API](software_api/kmbox_net_style_api.md)
   - [DHZBox Style API](software_api/dhzbox_style_api.md)
+  - [API Tweaks](software_api/api_tweaks.md)
 
 - [Legacy API](legacy_api.md)
   - [Misc](legacy_api/misc.md)

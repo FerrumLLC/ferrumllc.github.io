@@ -7,8 +7,11 @@ This does not apply to the [Legacy API](../legacy_api.md).
 
 ## Ignored Characters
 
-Before a command is parsed, all whitespace, and every character other than letters, numbers, and `-_.,()[];`, is
+Before a command is parsed, all whitespace, and every character other than letters, numbers, and `+-_.,()[];`, is
 removed. This means spacing does not matter, and quotes are optional.
+
+`+` and `-` are kept so they can be used both as number signs (ex: `km.move(-5, +5)`) and in command names (ex:
+[`km.lock_mx+`](../software_api/km_api/mouse/axes/lock.md#directional-locks)).
 
 For example, all of the following are treated identically:
 
